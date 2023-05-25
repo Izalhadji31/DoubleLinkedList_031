@@ -100,7 +100,7 @@ bool DoubleLinkedList::listEmpty() {
     return (START == NULL);
 }
 
-bool DoubleLinkedList::ascending(){
+void DoubleLinkedList::ascending() {
     if (listEmpty())
         cout << "\nList is empty" << endl;
     else {
