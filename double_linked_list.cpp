@@ -11,6 +11,8 @@ public:
 };
 
 class DoubleLinkedList {
+private:
+    Node* START;
 
 };
 int main()
