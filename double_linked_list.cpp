@@ -10,6 +10,9 @@ public:
     Node* prev;
 };
 
+class DoubleLinkedList {
+
+};
 int main()
 {
     std::cout << "Hello World!\n";
