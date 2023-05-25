@@ -108,10 +108,11 @@ bool DoubleLinkedList::ascending(){
         Node* currentNode = START;
         while (currentNode != NULL) {
             cout << currentNode->noMhs << " " << currentNode->name << endl;
-            currentNode = currentNode
+            currentNode = currentNode->next;
         }
     }
 }
+
 
 int main()
 {
