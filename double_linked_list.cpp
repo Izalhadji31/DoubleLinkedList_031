@@ -162,7 +162,6 @@ void  DoubleLinkedList::searchData() {
     }
 }
 
-int main()
-{
+int main(){
     
 }
